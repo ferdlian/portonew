@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Proyek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="site-project-detail">
+    <div class="page-shell detail-shell">
+      <header class="topbar">
+        <a class="brand" href="/">
+          <span class="brand-mark"></span>
+          <span>
+            <strong id="detail-site-title">Swarna Habitat Studio</strong>
+            <small id="detail-site-tagline"></small>
+          </span>
+        </a>
+        <div class="nav-links">
+          <a href="/">Kembali ke Beranda</a>
+          <a href="/admin">CMS</a>
+        </div>
+      </header>
+
+      <main class="detail-main">
+        <section class="panel detail-hero reveal">
+          <div class="detail-hero-copy">
+            <p id="detail-breadcrumb" class="detail-breadcrumb"></p>
+            <p id="detail-category" class="eyebrow"></p>
+            <h1 id="detail-title"></h1>
+            <p id="detail-summary" class="hero-description"></p>
+            <div class="detail-meta" id="detail-meta"></div>
+          </div>
+          <div class="detail-hero-media">
+            <img id="detail-image" class="detail-cover-image" src="" alt="" />
+          </div>
+        </section>
+
+        <section class="detail-grid reveal">
+          <article class="panel detail-content-block">
+            <p class="eyebrow">Konteks Proyek</p>
+            <h2>Tantangan</h2>
+            <p id="detail-challenge" class="section-description"></p>
+          </article>
+          <article class="panel detail-content-block">
+            <p class="eyebrow">Eksekusi</p>
+            <h2>Solusi</h2>
+            <p id="detail-solution" class="section-description"></p>
+          </article>
+          <article class="panel detail-content-block">
+            <p class="eyebrow">Hasil Akhir</p>
+            <h2>Hasil</h2>
+            <p id="detail-result" class="section-description"></p>
+          </article>
+        </section>
+
+        <section class="detail-grid reveal">
+          <article class="panel detail-content-block">
+            <p class="eyebrow">Denah</p>
+            <h2>Floorplan</h2>
+            <div class="floorplan-card">
+              <img id="detail-floorplan-image" class="detail-floorplan-image" src="" alt="" />
+            </div>
+          </article>
+          <article class="panel detail-content-block material-specs-card">
+            <p class="eyebrow">Material</p>
+            <h2>Spesifikasi material</h2>
+            <div id="detail-materials" class="material-specs-grid"></div>
+            <p id="detail-material-notes" class="section-description"></p>
+          </article>
+        </section>
+
+        <section id="detail-progress-section" class="panel detail-progress-section reveal" hidden>
+          <div class="section-heading">
+            <p class="eyebrow">Progress Proyek</p>
+            <h2 id="detail-progress-title"></h2>
+            <p id="detail-progress-summary" class="section-description"></p>
+          </div>
+          <div id="detail-progress-card" class="detail-progress-card"></div>
+        </section>
+
+        <section class="panel detail-gallery-section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Galeri Proyek</p>
+            <h2>Sudut ruang yang paling menentukan impresi</h2>
+          </div>
+          <div id="detail-gallery" class="detail-gallery"></div>
+        </section>
+
+        <section id="detail-before-after-section" class="panel detail-before-after reveal" hidden>
+          <div class="section-heading">
+            <p class="eyebrow">Before / After</p>
+            <h2 id="detail-before-after-title"></h2>
+            <p id="detail-before-after-summary" class="section-description"></p>
+          </div>
+          <div id="detail-before-after-grid" class="compare-split"></div>
+        </section>
+
+        <section class="panel detail-testimonial-section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Catatan Klien</p>
+            <h2>Kesan owner setelah ruang selesai dipakai</h2>
+          </div>
+          <div id="detail-testimonial" class="detail-testimonial"></div>
+        </section>
+
+        <section class="panel detail-related-section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Proyek Serupa</p>
+            <h2>Project lain dengan karakter yang serupa</h2>
+          </div>
+          <div id="detail-related-projects" class="projects-list-grid"></div>
+        </section>
+
+        <section class="panel cta-banner reveal">
+          <div>
+            <p class="eyebrow">Diskusi Proyek</p>
+            <h2 id="detail-contact-title"></h2>
+            <p id="detail-contact-description" class="section-description"></p>
+          </div>
+          <a id="detail-contact-button" class="button primary" href="/">Kembali ke Beranda</a>
+        </section>
+      </main>
+    </div>
+
+    <script src="/project.js" type="module"></script>
+  </body>
+</html>

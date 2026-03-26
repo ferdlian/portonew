@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swarna Habitat Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="site-home">
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="/">
+          <span class="brand-mark"></span>
+          <span>
+            <strong id="site-title">Swarna Habitat Studio</strong>
+            <small id="site-tagline"></small>
+          </span>
+        </a>
+        <nav id="main-nav" class="nav-links"></nav>
+      </header>
+
+      <main class="landing-main">
+        <section class="hero panel reveal">
+          <div class="hero-backdrop">
+            <img id="hero-backdrop-image" class="hero-backdrop-image" src="" alt="" />
+          </div>
+          <div class="hero-copy">
+            <p id="hero-eyebrow" class="eyebrow"></p>
+            <h3 id="hero-headline"></h3>
+            <p id="hero-description" class="hero-description"></p>
+            <div class="hero-actions">
+              <a id="hero-primary" class="button primary" href="#"></a>
+              <a id="hero-secondary" class="button secondary" href="#"></a>
+            </div>
+            <div id="hero-meta" class="hero-meta-grid"></div>
+          </div>
+          <div class="hero-aside">
+            <div id="hero-showcase" class="hero-showcase"></div>
+            <p id="hero-highlight-label" class="aside-label"></p>
+            <div id="hero-highlights" class="hero-highlight-board"></div>
+          </div>
+        </section>
+
+        <section class="stats-grid reveal" id="stats"></section>
+
+        <section class="panel section reveal" id="services">
+          <div class="section-heading">
+            <div class="section-heading-main">
+              <p class="eyebrow">Layanan</p>
+              <h2 id="services-title"></h2>
+            </div>
+            <div class="section-heading-side">
+              <p id="services-description" class="section-description"></p>
+            </div>
+          </div>
+          <div id="services-grid" class="services-grid"></div>
+        </section>
+
+        <section class="panel section projects-section reveal" id="projects">
+          <div class="section-heading">
+            <div class="section-heading-main">
+              <p class="eyebrow">Portfolio</p>
+              <h2 id="projects-title"></h2>
+            </div>
+            <div class="section-heading-side">
+              <p id="projects-description" class="section-description"></p>
+              <a class="ghost-button inline-link" href="/projects">Lihat Semua Proyek</a>
+            </div>
+          </div>
+          <div id="projects-grid" class="projects-grid"></div>
+        </section>
+
+        <section class="panel section project-progress-section reveal" id="project-progress">
+          <div class="section-heading">
+            <div class="section-heading-main">
+              <p class="eyebrow">Progress Proyek</p>
+              <h2 id="project-progress-title"></h2>
+            </div>
+            <div class="section-heading-side">
+              <p id="project-progress-description" class="section-description"></p>
+            </div>
+          </div>
+          <div id="project-progress-grid" class="project-progress-grid"></div>
+        </section>
+
+        <section class="panel section gallery-section reveal" id="gallery">
+          <div class="section-heading">
+            <div class="section-heading-main">
+              <p class="eyebrow">Galeri</p>
+              <h2 id="gallery-title"></h2>
+            </div>
+            <div class="section-heading-side">
+              <p id="gallery-description" class="section-description"></p>
+            </div>
+          </div>
+          <div class="gallery-slider-shell">
+            <div class="gallery-slider-stage">
+              <div id="gallery-track" class="gallery-slider-track"></div>
+            </div>
+            <div class="gallery-slider-footer">
+              <p id="gallery-counter" class="gallery-slider-counter"></p>
+              <div id="gallery-dots" class="gallery-slider-dots"></div>
+              <div class="gallery-slider-buttons">
+                <button id="gallery-prev" class="ghost-button" type="button">Sebelumnya</button>
+                <button id="gallery-next" class="ghost-button" type="button">Berikutnya</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel section before-after-section reveal" id="before-after">
+          <div class="section-heading">
+            <div class="section-heading-main">
+              <p class="eyebrow">Before / After</p>
+              <h2 id="before-after-title"></h2>
+            </div>
+            <div class="section-heading-side">
+              <p id="before-after-description" class="section-description"></p>
+            </div>
+          </div>
+          <div id="before-after-grid" class="before-after-grid"></div>
+        </section>
+
+        <section class="process-wrap reveal" id="process">
+          <div class="section-heading compact">
+            <p class="eyebrow">Proses Kerja</p>
+            <h2 id="process-title"></h2>
+          </div>
+          <div id="process-grid" class="process-grid"></div>
+        </section>
+
+        <section class="panel section testimonials-section reveal" id="testimonials">
+          <div class="section-heading">
+            <div class="section-heading-main">
+              <p class="eyebrow">Testimoni</p>
+              <h2 id="testimonials-title"></h2>
+            </div>
+            <div class="section-heading-side">
+              <p id="testimonials-description" class="section-description"></p>
+            </div>
+          </div>
+          <div class="testimonials-shell">
+            <div class="testimonial-stage">
+              <div id="testimonials-track" class="testimonials-track"></div>
+            </div>
+            <div class="testimonials-controls">
+              <div id="testimonials-dots" class="testimonials-dots"></div>
+              <div class="testimonials-buttons">
+                <button id="testimonial-prev" class="ghost-button" type="button">Sebelumnya</button>
+                <button id="testimonial-next" class="ghost-button" type="button">Berikutnya</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel cta-banner reveal">
+          <div class="section-heading-main">
+            <p class="eyebrow">CMS Visual</p>
+            <h2 id="cta-title"></h2>
+          </div>
+          <div class="section-heading-side">
+            <p id="cta-description" class="section-description"></p>
+          </div>
+          <a id="cta-button" class="button primary" href="#"></a>
+        </section>
+      </main>
+
+      <footer class="footer panel reveal" id="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Kontak</p>
+          <h2 id="contact-title"></h2>
+          <p id="contact-description" class="section-description"></p>
+        </div>
+        <div class="contact-grid">
+          <a id="contact-email" href="#"></a>
+          <a id="contact-phone" href="#"></a>
+          <a id="contact-whatsapp" href="#" target="_blank" rel="noreferrer"></a>
+          <p id="contact-address"></p>
+          <p id="contact-hours"></p>
+        </div>
+        <p id="footer-copy" class="footer-copy"></p>
+      </footer>
+    </div>
+
+    <script src="/site.js" type="module"></script>
+  </body>
+  </html>

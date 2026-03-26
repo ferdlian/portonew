@@ -1,0 +1,435 @@
+{
+  "site": {
+    "title": "Swarna Habitat Studio",
+    "tagline": "Design, build, dan renovasi premium dengan presentasi yang hangat, rapi, dan terasa mahal",
+    "nav": [
+      {
+        "label": "Layanan",
+        "href": "#services"
+      },
+      {
+        "label": "Proyek",
+        "href": "#projects"
+      },
+      {
+        "label": "Progress",
+        "href": "#project-progress"
+      },
+      {
+        "label": "Galeri",
+        "href": "#gallery"
+      },
+      {
+        "label": "Before / After",
+        "href": "#before-after"
+      },
+      {
+        "label": "Testimoni",
+        "href": "#testimonials"
+      },
+      {
+        "label": "CMS",
+        "href": "/admin"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Design & Build Premium",
+    "headline": "Ruang yang terasa matang, terang, dan nyaman dipresentasikan ke siapa pun.",
+    "description": "Swarna Habitat Studio menangani bangun baru, fit-out kantor, dan renovasi hospitality dengan alur kerja yang rapi, taste visual yang terkurasi, dan kontrol lapangan yang disiplin sampai handover.",
+    "backgroundImage": "/uploads/swarna-residence-main.jpg",
+    "primaryCta": {
+      "label": "Jadwalkan Konsultasi",
+      "href": "#contact"
+    },
+    "secondaryCta": {
+      "label": "Lihat Proyek Pilihan",
+      "href": "#projects"
+    },
+    "highlightLabel": "Studio Notes",
+    "highlights": [
+      {
+        "label": "Area kerja",
+        "value": "Jakarta, BSD, Alam Sutera, Bandung"
+      },
+      {
+        "label": "Tipe proyek",
+        "value": "Residential, office fit-out, cafe, boutique retail"
+      },
+      {
+        "label": "Kontrol eksekusi",
+        "value": "Budget tracking, site report mingguan, curated finishing"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": "48+",
+      "label": "proyek residensial dan komersial yang sudah diserahterimakan"
+    },
+    {
+      "value": "11 tahun",
+      "label": "pengalaman menangani build, fit-out, dan renovasi premium"
+    },
+    {
+      "value": "92%",
+      "label": "pekerjaan tahap akhir selesai sesuai target timeline owner"
+    }
+  ],
+  "services": {
+    "title": "Layanan yang dibuat untuk owner yang ingin hasil matang",
+    "description": "Setiap project dibangun dengan scope yang jelas, material yang bisa diverifikasi, dan ritme koordinasi yang enak dipantau. Fokus kami bukan hanya selesai, tapi juga tampil meyakinkan saat dipresentasikan.",
+    "items": [
+      {
+        "title": "Luxury Residence Build",
+        "description": "Bangun rumah tinggal baru dengan detailing facade, landscape, lighting, dan interior yang dikembangkan sebagai satu kesatuan.",
+        "meta": "Turnkey residential build"
+      },
+      {
+        "title": "Renovasi Menyeluruh",
+        "description": "Perombakan layout, upgrade material, pembaruan utilitas, dan penyegaran karakter ruang untuk properti yang ingin naik kelas.",
+        "meta": "Structural and aesthetic upgrade"
+      },
+      {
+        "title": "Office & Retail Fit-Out",
+        "description": "Pengerjaan interior kantor, showroom, dan cafe dengan furniture custom, material premium, serta koordinasi vendor yang rapih.",
+        "meta": "Interior production and joinery"
+      },
+      {
+        "title": "Design & Build Management",
+        "description": "Satu tim untuk konsep desain, gambar kerja, budgeting, pengadaan material, progress monitoring, dan handover.",
+        "meta": "Integrated project delivery"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Project sample yang sekarang punya halaman detail sendiri",
+    "description": "Semua project di bawah sudah memakai aset lokal, bisa dibuka ke halaman detail, dan punya informasi yang cukup untuk terlihat seperti portfolio perusahaan yang siap presentasi.",
+    "items": [
+      {
+        "name": "Swarna Courtyard Residence",
+        "slug": "swarna-courtyard-residence",
+        "location": "BSD, Tangerang",
+        "year": "2025",
+        "category": "Luxury Home Build",
+        "summary": "Rumah tinggal dua lantai dengan facade batu terang, aksen kayu, dan halaman depan luas yang dirancang untuk pencahayaan alami serta impresi pertama yang bersih.",
+        "image": "/uploads/swarna-residence-main.jpg",
+        "client": "Melissa Hartono",
+        "duration": "24 minggu",
+        "area": "640 m2",
+        "scope": "Build baru, facade, landscape, interior utama",
+        "challenge": "Owner menginginkan rumah yang terasa premium tetapi tetap terang, tidak terlalu kaku, dan punya transisi visual yang halus dari facade ke area keluarga dalam rumah.",
+        "solution": "Kami memakai komposisi batu terang, kayu bernuansa hangat, bukaan besar, dan penataan landscape depan yang membuat rumah terlihat lapang bahkan dari approach pertama.",
+        "result": "Hasil akhirnya terasa tenang, rapi, dan punya karakter arsitektur yang kuat tanpa terlihat berlebihan. Rumah juga terasa siap difoto dan dipresentasikan sejak hari serah terima.",
+        "galleryImageA": "/uploads/swarna-residence-garden.jpg",
+        "galleryImageB": "/uploads/swarna-residence-facade.jpg",
+        "galleryImageC": "/uploads/swarna-residence-after.jpg",
+        "floorplanImage": "/uploads/floorplan-residence.jpg",
+        "materialPrimary": "Travertine light slab",
+        "materialSecondary": "American oak veneer",
+        "materialAccent": "Powder-coated metal charcoal",
+        "materialNotes": "Palet material dipilih untuk memberi kesan hangat, terang, dan refined. Finishing matte membantu rumah tetap terasa premium tetapi tidak berlebihan saat dipakai harian.",
+        "ctaLabel": "Konsultasikan Rumah Serupa",
+        "ctaHref": "https://wa.me/6281270004412?text=Halo%20Swarna%20Habitat%2C%20saya%20ingin%20konsultasi%20project%20rumah%20premium."
+      },
+      {
+        "name": "Ruang Satu Executive Office",
+        "slug": "ruang-satu-executive-office",
+        "location": "Jakarta Selatan",
+        "year": "2026",
+        "category": "Office Fit-Out",
+        "summary": "Interior kantor dengan workstation terang, lighting linear, shelving custom, dan area meeting yang dibuat modern namun tetap hangat untuk menyambut klien.",
+        "image": "/uploads/swarna-office-main.jpg",
+        "client": "Kevin Setiawan",
+        "duration": "11 minggu",
+        "area": "1.200 m2",
+        "scope": "Fit-out kantor, reception, boardroom, workstation, pantry",
+        "challenge": "Kantor harus terlihat profesional untuk menerima klien, tetapi tetap nyaman untuk tim internal yang memakai ruang ini setiap hari dengan intensitas tinggi.",
+        "solution": "Material terang, layout terbuka, pencahayaan linear, dan penyusunan ruang rapat dibuat saling terhubung sehingga sirkulasi kerja lebih efisien dan area depan tetap representatif.",
+        "result": "Office terasa modern, bersih, dan credible saat dipakai presentasi. Tim juga mendapatkan area kerja yang lebih ringan, terang, dan mudah dipakai untuk aktivitas harian.",
+        "galleryImageA": "/uploads/swarna-office-reception.jpg",
+        "galleryImageB": "/uploads/swarna-office-workspace.jpg",
+        "galleryImageC": "/uploads/swarna-office-after.jpg",
+        "floorplanImage": "/uploads/floorplan-office.jpg",
+        "materialPrimary": "Acoustic carpet tile",
+        "materialSecondary": "Laminate ash grey",
+        "materialAccent": "Fluted glass partition",
+        "materialNotes": "Material workspace dipilih untuk mendukung cahaya yang bersih, kontrol akustik yang baik, dan kesan profesional saat area depan menerima tamu atau klien.",
+        "ctaLabel": "Diskusikan Fit-Out Kantor",
+        "ctaHref": "https://wa.me/6281270004412?text=Halo%20Swarna%20Habitat%2C%20saya%20ingin%20diskusi%20fit-out%20kantor."
+      },
+      {
+        "name": "Terra Brew Social Cafe",
+        "slug": "terra-brew-social-cafe",
+        "location": "Bandung",
+        "year": "2025",
+        "category": "Hospitality Renovation",
+        "summary": "Cafe bernuansa terang dengan furniture kayu, warna lembut, dan layout yang nyaman untuk meeting santai maupun dine-in sepanjang hari.",
+        "image": "/uploads/swarna-cafe-main.jpg",
+        "client": "Nadine Wijaya",
+        "duration": "9 minggu",
+        "area": "310 m2",
+        "scope": "Renovasi hospitality, seating layout, service counter, styling",
+        "challenge": "Owner ingin ambience yang terasa mengundang sejak pagi hingga malam, tetapi tetap efisien untuk alur service dan rotasi pelanggan saat jam sibuk.",
+        "solution": "Kami membuat tone ruang lebih warm dan terang, mengoptimalkan area counter, menata ulang kursi-meja, dan menjaga komposisi material agar fotogenik untuk kebutuhan branding.",
+        "result": "Cafe terasa lebih hidup, lebih mudah dipakai foto konten, dan memberi impresi inviting bagi customer yang datang untuk meeting, bekerja, atau dine-in santai.",
+        "galleryImageA": "/uploads/swarna-cafe-counter.jpg",
+        "galleryImageB": "/uploads/swarna-cafe-dining.jpg",
+        "galleryImageC": "/uploads/swarna-cafe-main.jpg",
+        "floorplanImage": "/uploads/floorplan-cafe.jpg",
+        "materialPrimary": "Natural oak finish",
+        "materialSecondary": "Textured plaster paint",
+        "materialAccent": "Warm brushed brass",
+        "materialNotes": "Material hospitality diarahkan agar fotogenik, mudah dirawat, dan tetap terasa inviting untuk pengunjung yang datang pagi, siang, maupun malam.",
+        "ctaLabel": "Bahas Renovasi Cafe",
+        "ctaHref": "https://wa.me/6281270004412?text=Halo%20Swarna%20Habitat%2C%20saya%20ingin%20bahas%20renovasi%20cafe%20atau%20hospitality."
+      }
+    ]
+  },
+  "projectProgress": {
+    "title": "Progress proyek berjalan yang bisa dipantau calon klien",
+    "description": "Section ini menampilkan proyek yang masih aktif dikerjakan, lengkap dengan fase terbaru, target handover, dan update singkat yang bisa diperbarui langsung dari CMS.",
+    "items": [
+      {
+        "projectSlug": "swarna-courtyard-residence",
+        "title": "Swarna Courtyard Residence",
+        "location": "BSD, Tangerang",
+        "phase": "Final QC, landscape, dan punch list owner",
+        "progressPercent": "91",
+        "targetDate": "Maret 2026",
+        "statusTone": "near-handover",
+        "statusLabel": "Hampir handover",
+        "statusNote": "Mayoritas pekerjaan utama sudah selesai. Tim sedang merapikan landscape depan, touch up minor facade, dan menutup daftar revisi akhir sebelum serah terima penuh.",
+        "updatePointA": "Touch up akhir facade batu terang dan area pintu masuk sudah masuk checklist penutupan.",
+        "updatePointB": "Landscape depan, pencahayaan taman, dan area approach sedang dirapikan agar siap difoto saat serah terima.",
+        "updatePointC": "Punch list owner tinggal item minor, dengan target penutupan penuh dalam milestone handover berikutnya.",
+        "image": "/uploads/swarna-residence-garden.jpg",
+        "imageB": "/uploads/swarna-residence-facade.jpg",
+        "imageC": "/uploads/swarna-residence-after.jpg"
+      },
+      {
+        "projectSlug": "ruang-satu-executive-office",
+        "title": "Ruang Satu Executive Office",
+        "location": "Jakarta Selatan",
+        "phase": "Finishing interior dan commissioning",
+        "progressPercent": "78",
+        "targetDate": "April 2026",
+        "statusTone": "on-track",
+        "statusLabel": "On track",
+        "statusNote": "Joinery utama selesai, panel kaca meeting room sudah terpasang, dan tim sedang menyelesaikan lighting final serta pengecekan MEP.",
+        "updatePointA": "Area workstation dan reception sudah masuk tahap finishing akhir dengan penyesuaian detail built-in.",
+        "updatePointB": "Lighting linear, kaca partisi, dan jalur MEP sedang diuji agar semua area siap dipakai operasional.",
+        "updatePointC": "Commissioning boardroom, pantry, dan area front office dijadwalkan selesai sebelum review akhir owner.",
+        "image": "/uploads/swarna-office-workspace.jpg",
+        "imageB": "/uploads/swarna-office-reception.jpg",
+        "imageC": "/uploads/swarna-office-after.jpg"
+      },
+      {
+        "projectSlug": "terra-brew-social-cafe",
+        "title": "Terra Brew Social Cafe",
+        "location": "Bandung",
+        "phase": "Produksi custom furniture dan styling area service",
+        "progressPercent": "54",
+        "targetDate": "Mei 2026",
+        "statusTone": "attention",
+        "statusLabel": "Perlu monitoring",
+        "statusNote": "Counter service dan loose furniture utama sedang diproduksi. Finishing dinding serta layout seating sudah masuk tahap review akhir owner.",
+        "updatePointA": "Counter service, shelving display, dan beberapa loose furniture utama sedang diproduksi di workshop.",
+        "updatePointB": "Finishing dinding tekstur dan area seating diuji ulang untuk memastikan ambience tetap hangat dan tidak terlalu padat.",
+        "updatePointC": "Koordinasi branding, styling, dan final layout service perlu dipantau ketat agar target buka tetap aman.",
+        "image": "/uploads/swarna-cafe-counter.jpg",
+        "imageB": "/uploads/swarna-cafe-dining.jpg",
+        "imageC": "/uploads/swarna-cafe-main.jpg"
+      }
+    ]
+  },
+  "projectTimeline": {
+    "items": [
+      {
+        "projectSlug": "swarna-courtyard-residence",
+        "title": "Facade dan access depan masuk tahap final touch-up",
+        "dateLabel": "12 Maret 2026",
+        "note": "Pekerjaan touch-up area facade utama, jalur masuk, dan detail frame pintu depan sudah masuk checklist penutupan akhir sebelum handover.",
+        "image": "/uploads/swarna-residence-facade.jpg"
+      },
+      {
+        "projectSlug": "swarna-courtyard-residence",
+        "title": "Landscape depan dan pencahayaan taman dirapikan",
+        "dateLabel": "18 Maret 2026",
+        "note": "Komposisi softscape, hardscape, dan pencahayaan taman depan disetel ulang agar area approach terlihat matang untuk sesi foto serah terima.",
+        "image": "/uploads/swarna-residence-garden.jpg"
+      },
+      {
+        "projectSlug": "swarna-courtyard-residence",
+        "title": "Punch list owner tinggal item minor",
+        "dateLabel": "23 Maret 2026",
+        "note": "Daftar revisi owner tersisa pada item minor, dengan target penutupan penuh pada milestone handover berikutnya.",
+        "image": "/uploads/swarna-residence-after.jpg"
+      },
+      {
+        "projectSlug": "ruang-satu-executive-office",
+        "title": "Reception dan workstation masuk finishing akhir",
+        "dateLabel": "10 Maret 2026",
+        "note": "Joinery utama, reception desk, dan area workstation sudah terbentuk penuh dan masuk tahap penyesuaian detail built-in.",
+        "image": "/uploads/swarna-office-reception.jpg"
+      },
+      {
+        "projectSlug": "ruang-satu-executive-office",
+        "title": "Kaca partisi dan lighting linear diuji",
+        "dateLabel": "16 Maret 2026",
+        "note": "Meeting room glass, lighting linear, dan jalur MEP sedang diuji agar area depan dan ruang rapat siap dipakai operasional harian.",
+        "image": "/uploads/swarna-office-workspace.jpg"
+      },
+      {
+        "projectSlug": "ruang-satu-executive-office",
+        "title": "Commissioning boardroom dan pantry dijadwalkan",
+        "dateLabel": "24 Maret 2026",
+        "note": "Boardroom, pantry, dan front office dijadwalkan masuk commissioning final sebelum review owner terakhir.",
+        "image": "/uploads/swarna-office-after.jpg"
+      },
+      {
+        "projectSlug": "terra-brew-social-cafe",
+        "title": "Counter service diproduksi di workshop",
+        "dateLabel": "08 Maret 2026",
+        "note": "Counter utama, shelving display, dan elemen service front sedang diproduksi dengan penyesuaian material akhir.",
+        "image": "/uploads/swarna-cafe-counter.jpg"
+      },
+      {
+        "projectSlug": "terra-brew-social-cafe",
+        "title": "Mood area seating diuji ulang",
+        "dateLabel": "15 Maret 2026",
+        "note": "Finishing dinding tekstur, loose furniture, dan kepadatan seating diuji ulang agar ambience tetap hangat dan tidak terasa sesak.",
+        "image": "/uploads/swarna-cafe-dining.jpg"
+      },
+      {
+        "projectSlug": "terra-brew-social-cafe",
+        "title": "Branding dan flow service perlu monitoring ketat",
+        "dateLabel": "22 Maret 2026",
+        "note": "Koordinasi branding, styling, dan final layout service masih dipantau agar target buka tidak terdorong mundur.",
+        "image": "/uploads/swarna-cafe-main.jpg"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galeri lokal yang lebih stabil untuk presentasi dan deploy",
+    "description": "Semua gambar di section ini sekarang memakai file lokal di server, sehingga lebih aman dipakai untuk demo, presentasi internal, maupun deploy production awal.",
+    "items": [
+      {
+        "title": "Front court dan facade residence",
+        "detail": "Sudut pertama yang membentuk impresi premium",
+        "image": "/uploads/swarna-residence-facade.jpg"
+      },
+      {
+        "title": "Landscape approach ke rumah utama",
+        "detail": "Perpaduan batu terang, rumput, dan komposisi kayu",
+        "image": "/uploads/swarna-residence-garden.jpg"
+      },
+      {
+        "title": "Executive reception area",
+        "detail": "Sample front office yang terasa profesional dan tenang",
+        "image": "/uploads/swarna-office-reception.jpg"
+      },
+      {
+        "title": "Cafe dining area yang hangat",
+        "detail": "Sample hospitality interior dengan tone terang dan inviting",
+        "image": "/uploads/swarna-cafe-dining.jpg"
+      }
+    ]
+  },
+  "beforeAfter": {
+    "title": "Transformasi ruang yang lebih meyakinkan saat ditunjukkan ke calon klien",
+    "description": "Section ini membantu owner langsung melihat perbedaan kualitas ruang sebelum dan sesudah renovasi atau fit-out. Semua gambar di sini juga memakai aset lokal.",
+    "items": [
+      {
+        "projectSlug": "swarna-courtyard-residence",
+        "title": "Facade residence dari tampilan polos menjadi lebih refined",
+        "location": "BSD, Tangerang",
+        "summary": "Pendekatan facade diperbarui dengan komposisi material yang lebih hangat, landscape yang lebih rapi, dan visual depan rumah yang jauh lebih berkelas.",
+        "beforeImage": "/uploads/swarna-residence-before.jpg",
+        "afterImage": "/uploads/swarna-residence-after.jpg"
+      },
+      {
+        "projectSlug": "ruang-satu-executive-office",
+        "title": "Office floor dari ruang lama menjadi executive workspace",
+        "location": "Jakarta Selatan",
+        "summary": "Sirkulasi ruang dibenahi, pencahayaan dibuat lebih bersih, dan area depan kantor ditata supaya lebih representatif saat menerima klien.",
+        "beforeImage": "/uploads/swarna-office-before.jpg",
+        "afterImage": "/uploads/swarna-office-after.jpg"
+      }
+    ]
+  },
+  "process": {
+    "title": "Alur kerja yang membuat keputusan owner lebih ringan",
+    "items": [
+      {
+        "step": "01",
+        "title": "Discovery & project brief",
+        "description": "Kami mulai dari kebutuhan ruang, gaya visual, target kualitas, dan batas anggaran supaya keputusan desain tidak salah arah."
+      },
+      {
+        "step": "02",
+        "title": "Design proposal & costing",
+        "description": "Owner menerima arahan desain, spesifikasi material awal, timeline, dan estimasi biaya yang bisa dipakai untuk memutuskan fase berikutnya."
+      },
+      {
+        "step": "03",
+        "title": "Site production",
+        "description": "Tim lapangan menjalankan pekerjaan dengan update mingguan, approval material, dan quality checkpoint pada tiap milestone utama."
+      },
+      {
+        "step": "04",
+        "title": "Styling, QC, handover",
+        "description": "Setelah finishing rapih dan punch list ditutup, ruang diserahkan dalam kondisi siap pakai dan layak dipresentasikan ke user akhir."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Dummy testimonial yang sekarang memakai aset lokal juga",
+    "description": "Foto klien dan foto proyek pada testimoni sudah diarahkan ke file lokal di server agar demo dan preview tetap stabil tanpa bergantung ke image host eksternal.",
+    "autoplayMs": "5000",
+    "items": [
+      {
+        "quote": "Dari awal kami cari tim yang tidak hanya bisa bangun bagus, tapi juga bisa menjaga ritme kerja tetap enak diikuti. Di sini kami dapat dua-duanya.",
+        "name": "Melissa Hartono",
+        "role": "Homeowner",
+        "avatar": "/uploads/avatar-melissa.jpg",
+        "projectName": "Swarna Courtyard Residence",
+        "projectImage": "/uploads/swarna-residence-main.jpg"
+      },
+      {
+        "quote": "Office kami butuh tampil profesional saat klien datang, tapi tetap nyaman dipakai tim setiap hari. Sample ini menggambarkan tone yang sangat dekat dengan kebutuhan itu.",
+        "name": "Kevin Setiawan",
+        "role": "Managing Director",
+        "avatar": "/uploads/avatar-kevin.jpg",
+        "projectName": "Ruang Satu Executive Office",
+        "projectImage": "/uploads/swarna-office-main.jpg"
+      },
+      {
+        "quote": "Untuk bisnis hospitality, ambience itu menentukan. Saya suka karena visual sample ini langsung memberi kesan terang, hangat, dan inviting untuk customer.",
+        "name": "Nadine Wijaya",
+        "role": "Cafe Owner",
+        "avatar": "/uploads/avatar-nadine.jpg",
+        "projectName": "Terra Brew Social Cafe",
+        "projectImage": "/uploads/swarna-cafe-main.jpg"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Diskusikan brief project, target kualitas, dan estimasi arah biaya sejak awal",
+    "description": "Flow website publik sekarang diarahkan untuk membantu calon owner memahami style kerja, melihat contoh project, lalu masuk ke konsultasi yang lebih terarah melalui WhatsApp atau brief awal.",
+    "buttonLabel": "Mulai Konsultasi",
+    "buttonHref": "https://wa.me/6281270004412?text=Halo%20Swarna%20Habitat%2C%20saya%20ingin%20diskusi%20project."
+  },
+  "contact": {
+    "title": "Diskusikan project yang ingin kamu bangun",
+    "description": "Mulai dari rumah tinggal, office fit-out, sampai hospitality space. Kirim brief awal, moodboard, atau kebutuhan desain-build agar tim kami menyiapkan arahan project yang tepat.",
+    "email": "hello@swarna-habitat.id",
+    "phone": "+62 812 7000 4412",
+    "address": "Sudirman Central District, Jakarta",
+    "hours": "Senin - Jumat, 09.00 - 18.00",
+    "whatsapp": "https://wa.me/6281270004412"
+  },
+  "footer": {
+    "copyright": "© 2026 Swarna Habitat Studio. Sample portfolio website with visual CMS."
+  }
+}

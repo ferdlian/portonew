@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semua Proyek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="site-projects">
+    <div class="page-shell detail-shell">
+      <header class="topbar">
+        <a class="brand" href="/">
+          <span class="brand-mark"></span>
+          <span>
+            <strong id="projects-site-title">Swarna Habitat Studio</strong>
+            <small id="projects-site-tagline"></small>
+          </span>
+        </a>
+        <div class="nav-links">
+          <a href="/">Beranda</a>
+          <a href="/admin">CMS</a>
+        </div>
+      </header>
+
+      <main class="detail-main">
+        <section class="panel detail-hero reveal">
+          <div class="detail-hero-copy">
+            <p class="eyebrow">Koleksi Proyek</p>
+            <h1 id="projects-page-title">Semua Proyek</h1>
+            <p id="projects-page-description" class="hero-description"></p>
+            <div id="projects-page-meta" class="project-directory-meta"></div>
+          </div>
+          <div class="detail-hero-media">
+            <img id="projects-hero-image" class="detail-cover-image" src="" alt="" />
+          </div>
+        </section>
+
+        <section class="projects-list-grid" id="projects-list-grid"></section>
+
+        <section class="panel cta-banner reveal">
+          <div class="section-heading-main">
+            <p class="eyebrow">Konsultasi</p>
+            <h2 id="projects-cta-title">Diskusikan project yang ingin kamu bangun</h2>
+          </div>
+          <div class="section-heading-side">
+            <p id="projects-cta-description" class="section-description"></p>
+          </div>
+          <a id="projects-cta-button" class="button primary" href="/">Konsultasi via WhatsApp</a>
+        </section>
+      </main>
+    </div>
+
+    <script src="/projects.js" type="module"></script>
+  </body>
+</html>

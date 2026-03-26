@@ -1,0 +1,6 @@
+node_modules/
+.vercel/
+.env
+data/
+public/uploads/
+.DS_Store

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swarna Habitat CMS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="site-admin">
+    <div class="page-shell admin-shell">
+      <header class="topbar">
+        <a class="brand" href="/">
+          <span class="brand-mark"></span>
+          <span>
+            <strong>Swarna Habitat CMS</strong>
+            <small>Visual editor untuk portfolio design build dan renovasi premium</small>
+          </span>
+        </a>
+        <a class="button secondary" href="/">Lihat Website</a>
+      </header>
+
+      <div class="editor-layout">
+        <aside class="panel admin-sidebar">
+          <section class="sidebar-segment sidebar-intro">
+            <p class="eyebrow">Navigator</p>
+            <h2>Panel edit konten</h2>
+            <p>Kelola website per section. Pilih area di sidebar, edit isi di kanan, lalu simpan jika hasilnya sudah rapi.</p>
+          </section>
+
+          <section class="sidebar-segment sidebar-meta-grid">
+            <article class="editor-meta-card">
+              <strong id="editor-section-count">0 section</strong>
+              <span>Area edit aktif</span>
+            </article>
+            <article class="editor-meta-card">
+              <strong id="editor-dirty-chip" class="dashboard-chip">Tidak ada perubahan</strong>
+              <span>Status edit saat ini</span>
+            </article>
+          </section>
+
+          <section class="sidebar-segment">
+            <div class="sidebar-segment-head">
+              <strong>Navigasi Konten</strong>
+              <span>Pilih segment yang ingin diedit</span>
+            </div>
+            <nav class="editor-nav admin-sidebar-nav">
+              <a href="#section-dashboard">Dashboard</a>
+              <a href="#section-brand">Brand</a>
+              <a href="#section-hero">Hero</a>
+              <a href="#section-services">Layanan</a>
+              <a href="#section-projects">Proyek</a>
+              <a href="#section-project-progress">Progress</a>
+              <a href="#section-gallery">Galeri</a>
+              <a href="#section-before-after">Before / After</a>
+              <a href="#section-process">Proses</a>
+              <a href="#section-testimonials">Testimoni</a>
+              <a href="#section-contact">Kontak</a>
+              <a href="#section-account">Akun Admin</a>
+            </nav>
+          </section>
+
+          <section class="sidebar-segment sidebar-workflow">
+            <div class="sidebar-segment-head">
+              <strong>Alur Kerja</strong>
+              <span>Edit dengan urutan yang jelas</span>
+            </div>
+            <div class="workflow-list">
+              <p><strong>1.</strong> Pilih segment dari sidebar.</p>
+              <p><strong>2.</strong> Edit field utama dan upload gambar bila perlu.</p>
+              <p><strong>3.</strong> Simpan perubahan lalu cek hasil di website publik.</p>
+            </div>
+          </section>
+        </aside>
+
+        <main class="panel admin-panel">
+          <div class="admin-header">
+            <div>
+              <p class="eyebrow">Content Management</p>
+              <h1>Edit portfolio kontraktor</h1>
+              <p class="section-description">Area kanan dipakai khusus untuk edit detail per segment tanpa gangguan panel preview.</p>
+            </div>
+            <div class="admin-actions">
+              <button id="save-button" class="button primary" type="button">Simpan Perubahan</button>
+              <button id="cleanup-uploads" class="button secondary" type="button">Cleanup Uploads</button>
+              <button id="logout-button" class="button secondary" type="button">Logout</button>
+              <a class="button secondary" href="/">Preview Website</a>
+            </div>
+          </div>
+
+          <section id="dashboard-summary" class="dashboard-summary" hidden>
+            <div class="dashboard-header">
+              <div>
+                <p class="eyebrow">Dashboard Summary</p>
+                <h2>Ringkasan cepat sistem</h2>
+                <p class="section-description">
+                  Lihat jumlah konten utama, kesehatan upload, dan shortcut yang paling sering dipakai sebelum masuk ke form edit.
+                </p>
+              </div>
+              <div id="dashboard-system-chip" class="dashboard-system-chip"></div>
+            </div>
+            <div class="dashboard-grid">
+              <article class="dashboard-card dashboard-overview-card">
+                <div class="dashboard-card-title">
+                  <strong>Content Overview</strong>
+                  <span>Project, galeri, testimonial, before/after</span>
+                </div>
+                <div id="dashboard-metrics" class="dashboard-metrics"></div>
+              </article>
+              <article class="dashboard-card">
+                <div class="dashboard-card-title">
+                  <strong>Quick Links</strong>
+                  <span>Akses cepat ke area yang paling penting</span>
+                </div>
+                <div id="dashboard-quick-links" class="dashboard-links"></div>
+              </article>
+              <article class="dashboard-card">
+                <div class="dashboard-card-title">
+                  <strong>System Status</strong>
+                  <span>Kondisi operasional CMS saat ini</span>
+                </div>
+                <div id="dashboard-status" class="dashboard-status"></div>
+              </article>
+            </div>
+          </section>
+
+          <section id="auth-panel" class="auth-panel">
+            <div class="auth-card">
+              <p class="eyebrow">Admin Login</p>
+              <h2>Masuk ke CMS</h2>
+              <p class="section-description">
+                Masukkan password admin untuk mengelola konten, upload gambar, dan menyimpan perubahan.
+              </p>
+              <div id="default-password-note" class="default-password-note" hidden>
+                Server masih memakai password default. Disarankan jalankan dengan `ADMIN_PASSWORD` sendiri.
+              </div>
+              <form id="login-form" class="login-form">
+                <label class="field">
+                  <span>Username Admin</span>
+                  <input id="login-username" type="text" autocomplete="username" placeholder="Masukkan username admin" />
+                </label>
+                <label class="field">
+                  <span>Password Admin</span>
+                  <input id="login-password" type="password" autocomplete="current-password" placeholder="Masukkan password admin" />
+                </label>
+                <div class="admin-actions">
+                  <button class="button primary" type="submit">Masuk</button>
+                </div>
+              </form>
+              <p id="login-status" class="save-status"></p>
+            </div>
+          </section>
+
+          <div id="cms-sections" class="cms-sections"></div>
+
+          <section id="section-account" class="cms-section-card account-card" hidden>
+            <div class="cms-section-heading">
+              <div>
+                <p class="eyebrow">Account</p>
+                <h2>Ganti Password Admin</h2>
+              </div>
+              <p>Password bisa diganti langsung dari CMS tanpa restart server. Password baru minimal 8 karakter.</p>
+            </div>
+            <form id="password-form" class="login-form">
+              <div class="field-grid">
+                <label class="field">
+                  <span>Password saat ini</span>
+                  <input id="password-current" type="password" autocomplete="current-password" placeholder="Masukkan password lama" />
+                </label>
+                <label class="field">
+                  <span>Password baru</span>
+                  <input id="password-next" type="password" autocomplete="new-password" placeholder="Masukkan password baru" />
+                </label>
+              </div>
+              <label class="field">
+                <span>Konfirmasi password baru</span>
+                <input id="password-confirm" type="password" autocomplete="new-password" placeholder="Ulangi password baru" />
+              </label>
+              <div class="admin-actions">
+                <button class="button primary" type="submit">Ganti Password</button>
+              </div>
+            </form>
+            <p id="password-status" class="save-status"></p>
+          </section>
+
+          <p id="save-status" class="save-status"></p>
+        </main>
+
+        <!--
+        <aside class="panel preview-panel">
+          <div class="preview-header">
+            <div>
+              <p class="eyebrow">Live Preview</p>
+              <h2>Preview website langsung</h2>
+            </div>
+            <button id="refresh-preview" class="button secondary" type="button">Refresh Preview</button>
+          </div>
+          <div class="preview-frame-wrap">
+            <iframe id="site-preview" class="site-preview" src="/" title="Live site preview"></iframe>
+          </div>
+        </aside>
+        -->
+      </div>
+    </div>
+
+    <script src="/admin.js" type="module"></script>
+  </body>
+  </html>

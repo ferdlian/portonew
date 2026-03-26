@@ -1,0 +1,14 @@
+{
+  "name": "portonew-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "@vercel/blob": "^0.27.0"
+  }
+}
